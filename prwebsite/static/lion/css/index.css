@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    color:white;
+}
+
+#wrapper{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 40px;
+
+}
+
+footer{
+    height: 40px;
+    position: relative;
+    transform: translateY(-100%);
+}
+

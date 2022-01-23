@@ -1,0 +1,31 @@
+img {
+    border-radius: 50%;
+}
+#hide_bar{
+    background-color:orange;
+    opacity : 0.6;
+    width : 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    display : table-cell;
+    vertical-align: middle;
+
+}
+#box {
+    width : 120px;
+    height: 120px;
+    overflow: hidden;
+}
+.transBoxIn{
+    transform : translateY(-125px);
+    transition : 0.3s ease;
+}
+.transBoxOut{
+    transform : translateY(125px);
+    transition : 0.3s ease;
+}
+.line_deplacement{
+    display: flex;
+    justify-content: space-evenly;
+}
