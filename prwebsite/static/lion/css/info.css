@@ -51,7 +51,8 @@ img[src ^= "static/info/star.png"] {
 
 .recruit {
     position: relative;
-    /*margin: 200px 0 200px 0;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .recruit > .title {
@@ -78,6 +79,7 @@ img[src ^= "https://skhu-likelion-9th.github.io/likeInformative_Lion/images/slid
 .schedule {
     position: relative;
     left: 10%;
+    padding: 100px;
 }
 
 .schedule > .schedule_container {
@@ -97,14 +99,20 @@ img[src ^= "https://skhu-likelion-9th.github.io/likeInformative_Lion/images/slid
 }
 
 .video {
-    position: relative;
-    border-left: 1px solid #FF9E1B;
+    padding: 100px;
+    text-align: center;
+}
+
+video {
+    width: 85%;
+    height: auto;
+    border: 15px solid #FF9E1B;
 }
 
 .must {
     position: relative;
     left: 15%;
-    margin: 200px 0 200px 0;
+    margin: 100px;
     padding-left: 15px;
     border-left: 1px solid #FF9E1B;
 }
