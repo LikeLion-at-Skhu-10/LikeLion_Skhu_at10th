@@ -6,21 +6,52 @@ const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
 const slideWidth = 1500;
 const slideMargin = 100;
+makeClone();
+initfunction();//슬라이드 넓이 및 위치값 초기화
 
-slides.style.width = (slideWidth + slideMargin) * slideCount + 'px';
 
-function moveSlide(num){
-    slides.style.left = -num * 1600 + 'px';
-    currentIdx = num;
+function makeClone() {
+    let cloneSlide_first = slideimg[0].cloneNode(true);
+    let cloneSlide_last = slides.lastElementChild.cloneNode(true);
+    slides.append(cloneSlide_first);
+    slides.insertBefore(cloneSlide_last, slides.firstElementChild);
+
 }
-//currnetIdx !==0 일때만 불러오기. 첫 슬라이드에서 왼쪽버튼눌러도 반응 x
-prev.addEventListener('click', function(){
-    if (currentIdx !== 0 ) moveSlide(currentIdx - 1);
 
-});
+function initfunction() {
+    slides.style.width = (slideWidth + slideMargin) * (slideCount+2) + 'px';
+    slides.style.left = -(slideWidth + slideMargin) + 'px';
+}
+
 
 next.addEventListener('click', function(){
-    if (currentIdx !== slideCount-1){
-        moveSlide(currentIdx + 1);
+    console.log(currentIdx);
+    if (currentIdx <= slideCount -1){
+        slides.style.left = -(currentIdx + 2) * (slideWidth + slideMargin) + 'px';
+        slides.style.transition = `${0.5}s ease-out`;
     }
+    if (currentIdx === slideCount - 1) {
+        setTimeout(function () {
+            slides.style.left = -(slideWidth + slideMargin) + 'px';
+            slides.style.transition = `${0}s ease-out`;
+        }, 500);
+        currentIdx = -1;
+    }
+    currentIdx += 1;
+});
+
+prev.addEventListener('click', function(){
+    console.log(currentIdx);
+    if (currentIdx >=0) {
+        slides.style.left = -currentIdx * (slideWidth + slideMargin)+'px';
+        slides.style.transition = `${0.5}s ease-out`;
+    }
+    if (currentIdx === 0){
+        setTimeout(function() {
+            slides.style.left = -slideCount * (slideWidth + slideMargin) +'px';
+            slides.style.transition = `${0}s ease-out`;
+        }, 500);
+        currentIdx = slideCount;
+    }
+    currentIdx -= 1;
 });
