@@ -5,6 +5,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'lion/css/leo.css' %}">
     <link rel="stylesheet" href="{% static 'lion/css/event.css' %}">
     <link rel='stylesheet' href="{% static 'lion/css/index.css'%}"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,17 +17,36 @@
 
 <body>
     <header>
-        멋쟁이 사자처럼
+        멋쟁이 사자처럼<br><hr>
     </header>
 
     <div id='wrapper'>
         <div class="leo">
-            <!-- 사자 별자리 구간 :: 민정님 -->
-            <p>사자 그림 자체를 어둡게 하고, 그 위에 별자리를 두고, 각 별마다 옆에 글자가 나오는 방식으로 제작 예정</p>
+            <div class="leo_top">
+                <br><p id="leo_title">별을 클릭해 보세요</p>
+                <hr><img id="leo_search" src="static/lion/img/leo/검색.png" alt="검색">
+            </div>
+            <br><br><br>
+            <div class="leo_bottom">
+                <img id="leo_lion" src="static/lion/img/leo/leo.png" alt="사자별자리">
+                <div class="leo_star">
+                    <img id="leo_video" src="static/lion/img/leo/반짝이1.png" onclick="changeVI(), out(leo_video), over(leo_lion), over(leo_introduce), over(leo_recruit), over(leo_schedule), over(leo_rulecurri), over(leo_slide), over(leo_event), over(leo_madein), over(leo_footer)" alt="별"></a>
+                    <img id="leo_introduce" src="static/lion/img/leo/반짝이2.png" onclick="changeIN(), out(leo_introduce), over(leo_lion), over(leo_video), over(leo_recruit), over(leo_schedule), over(leo_rulecurri), over(leo_slide), over(leo_event), over(leo_madein), over(leo_footer)" alt="별">
+                    <img id="leo_recruit" src="static/lion/img/leo/반짝이3.png" onclick="changeRE(), out(leo_recruit), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_schedule), over(leo_rulecurri), over(leo_slide), over(leo_event), over(leo_madein), over(leo_footer)" alt="별">
+                    <img id="leo_schedule" src="static/lion/img/leo/반짝이4.png" onclick="changeSC(), out(leo_schedule), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_recruit), over(leo_rulecurri), over(leo_slide), over(leo_event), over(leo_madein), over(leo_footer)" alt="별">
+                    <img id="leo_rulecurri" src="static/lion/img/leo/반짝이5.png" onclick="changeMU(), out(leo_rulecurri), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_recruit), over(leo_schedule), over(leo_slide), over(leo_event), over(leo_madein), over(leo_footer)" alt="별">
+                    <img id="leo_slide" src="static/lion/img/leo/반짝이6.png" onclick="changeSL(), out(leo_slide), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_recruit), over(leo_schedule), over(leo_rulecurri), over(leo_event), over(leo_madein), over(leo_footer)" alt="별">
+                    <img id="leo_event" src="static/lion/img/leo/반짝이7.png" onclick="changeEV(), out(leo_event), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_recruit), over(leo_schedule), over(leo_rulecurri), over(leo_slide), over(leo_madein), over(leo_footer)" alt="별">
+                    <img id="leo_madein" src="static/lion/img/leo/반짝이8.png" onclick="changeMA(), out(leo_madein), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_recruit), over(leo_schedule), over(leo_rulecurri), over(leo_slide), over(leo_event), over(leo_footer)" alt="별">
+                    <img id="leo_footer" src="static/lion/img/leo/반짝이9.png" onclick="changeFO(), out(leo_footer), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_recruit), over(leo_schedule), over(leo_rulecurri), over(leo_slide), over(leo_event), over(leo_madein)" alt="별">
+                </div>
+            </div>
+            <script src="{% static 'lion/js/leo.js' %}"></script>
         </div>
+        <br>
 
         <div class="info">
-            <div class="introduce">
+            <div class="introduce" id="leo_IN">
                 <p class="title">멋쟁이 사자처럼이 무엇인가요?</p>
                 <p>
                     "HACK YOUR LIFE 내 아이디어를 내 손으로 실현한다"의 가치 아래에서 <br>
@@ -38,7 +58,7 @@
                 </p>
             </div>
 
-            <div class="recruit">
+            <div class="recruit" id="leo_RE">
                 <p class="title">모집대상</p>
                 <p>
                     전공자/비전공자 상관없이 나의 아이디어를 웹 서비스를 구현해보고 싶은 누구나! <br>
@@ -48,7 +68,7 @@
                 </p>
             </div>
 
-            <div class="schedule">
+            <div class="schedule" id="leo_SC">
                 <p class="title">모집일정</p>
                 <p>
                     구글폼을 이용한 1차 면접과 비대면(ex. 줌)을 통한 2차 면접을 진행합니다.
@@ -60,42 +80,44 @@
                 </div>
             </div>
 
-            <div class="video">
+            <div class="video" id="leo_VI">
                 <p class="title">소개영상</p>
             </div>
 
-            <div class="rule">
-                <p class="title">멋쟁이 사자처럼 규칙</p>
-                <p>
-                    멋쟁이 사자처럼 10기로 함께 활동하고 싶다면 <br>
-                    아래 규칙을 정독한 후에 지원서를 작성해주시길 바랍니다 ! <br>
-                    <br>
-                    멋쟁이 사자처럼 성공회대 규칙 <br>
-                    (다운로드)
-                </p>
-            </div>
-
-            <div class="curriculum">
-                <p class="title">멋쟁이 사자처럼 커리큘럼</p>
-                <p>
-                    Html/Css, Javascript, Python, Django를 기반으로 활동합니다 <br>
-                    자세한 내용이 궁금하다면 아래 커리큘럼을 확인해주세요. <br>
-                    <br>
-                    멋쟁이 사자처럼 성공회대 커리큘럼 <br>
-                    (다운로드)
-                </p>
+            <div class="must" id="leo_MU">
+                <div class="rule">
+                    <p class="title">멋쟁이 사자처럼 규칙</p>
+                    <p>
+                        멋쟁이 사자처럼 10기로 함께 활동하고 싶다면 <br>
+                        아래 규칙을 정독한 후에 지원서를 작성해주시길 바랍니다 ! <br>
+                        <br>
+                        멋쟁이 사자처럼 성공회대 규칙 <br>
+                        (다운로드)
+                    </p>
+                </div>
+            
+                <div class="curriculum">
+                    <p class="title">멋쟁이 사자처럼 커리큘럼</p>
+                    <p>
+                        Html/Css, Javascript, Python, Django를 기반으로 활동합니다 <br>
+                        자세한 내용이 궁금하다면 아래 커리큘럼을 확인해주세요. <br>
+                        <br>
+                        멋쟁이 사자처럼 성공회대 커리큘럼 <br>
+                        (다운로드)
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div class="slide">
+        <div class="slide" id="leo_SL">
             <!-- 슬라이드 :: 은혜님 -->
         </div>
 
-        <div class="event">
+        <div class="event" id="leo_EV">
 
         </div>
 
-        <div class="madein">
+        <div class="madein" id="leo_MA">
             <div class="line_deplacement">
                 <div id="box">
                     <img src="{% static '신아.jpg' %}" width="120" height="120">
@@ -123,7 +145,7 @@
         </div>
     </div>
 
-    <footer>
+    <footer id="leo_FO">
         <hr width="50%" size="3px" color="#DE964A">
         <p>블라블라블라</p>
     </footer>
