@@ -11,7 +11,7 @@
 .leo p {
     font-size: 2.5rem;
     line-height: 0.04em; /*문장 세로 간격*/
-    padding-left: 8%;
+    padding-left: 5%;
 }
 
 .leo hr {
@@ -34,7 +34,7 @@
 }
 
 #leo_lion {
-    max-width: 60%;
+    width: 60%;
     height: auto;
     border-radius: 0%;
 }
@@ -99,3 +99,74 @@
     right: 27%;
 }
 
+@media screen and (max-device-width: 425px){
+    #leo_lion {
+        width: 90%;
+        height: auto;
+        border-radius: 0%;
+    }
+
+    .leo_bottom {
+        position: relative;
+    }
+
+    .leo_star img {
+        max-width: 14%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #leo_video {
+        position: absolute;
+        top: 10.7%;
+        right: 3.7%;
+    }
+
+    #leo_introduce {
+        position: absolute;
+        top: 2.5%;
+        right: 13.5%;
+    }
+
+    #leo_recruit {
+        position: absolute;
+        top: 8%;
+        right: 23.8%;
+    }
+    
+    #leo_schedule {
+        position: absolute;
+        top: 25%;
+        right: 27.2%;
+    }
+    
+    #leo_rulecurri {
+        position: absolute;
+        top: 19.7%;
+        left: 25.5%;
+    }
+    
+    #leo_slide {
+        position: absolute;
+        top: 41.8%;
+        left: 6.2%;
+    }
+    
+    #leo_event {
+        position: absolute;
+        top: 42.1%;
+        left: 29.4%;
+    }
+    
+    #leo_madein {
+        position: absolute;
+        top: 56.5%;
+        right: 17.5%;
+    }
+    
+    #leo_footer {
+        position: absolute;
+        top: 37.8%;
+        right: 16%;
+    }
+}
