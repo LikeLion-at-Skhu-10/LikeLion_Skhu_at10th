@@ -8,7 +8,7 @@ const slideWidth = 1500;
 const slideMargin = 100;
 makeClone();
 initfunction();//슬라이드 넓이 및 위치값 초기화
-
+autoSlide();
 
 function makeClone() {
     let cloneSlide_first = slideimg[0].cloneNode(true);
@@ -23,6 +23,23 @@ function initfunction() {
     slides.style.left = -(slideWidth + slideMargin) + 'px';
 }
 
+function autoSlide() { //자동슬라이드 코드
+    console.log('check');
+    setInterval(function () {
+        if (currentIdx <= slideCount -1){
+            slides.style.left = -(currentIdx + 2) * (slideWidth + slideMargin) + 'px';
+            slides.style.transition = `${0.5}s ease-out`;
+        }
+        if (currentIdx === slideCount - 1) {
+            setTimeout(function () {
+                slides.style.left = -(slideWidth + slideMargin) + 'px';
+                slides.style.transition = `${0}s ease-out`;
+            }, 500);
+            currentIdx = -1;
+        }
+        currentIdx += 1;
+    }, 4000);
+}
 
 next.addEventListener('click', function(){
     console.log(currentIdx);

@@ -1,5 +1,14 @@
+.slide {
+    text-align: center;
+}
+
 .slide-li {
     list-style-type:none;
+}
+
+.slide span {
+    font-size: 15pt;
+    color: gray;
 }
 
 .slide-container {
