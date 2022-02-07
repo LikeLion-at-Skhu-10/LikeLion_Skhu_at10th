@@ -15,5 +15,43 @@ footer{
     height: 40px;
     position: relative;
     transform: translateY(-100%);
+    text-align: center;
 }
 
+header{
+    background-color:rgba(58, 58, 58, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header_text{
+    float: left;
+    width: 50%;
+    padding: 10px 0 0 20px;
+    font-weight: bolder;
+}
+
+.H_orange{
+    font-size: large;
+    color: #FF9E1B;
+}
+
+.orange{
+    color: #FF9E1B;
+}
+
+.footlion{
+    font-size: large;
+    margin: 5px 0 25px 0;
+}
+
+.number{
+    margin: 15px 0px 0 0;
+    font-size: small;
+}
+.insta{
+    margin: 2px 0 15px;
+    font-size: small;
+}
