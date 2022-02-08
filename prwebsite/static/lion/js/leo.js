@@ -1,5 +1,6 @@
 //커서 가져다 대면 나머지 반투명해지는거
 
+
 function over(leo_lion) {
     leo_lion.style.opacity = "0.3"
 }
@@ -114,4 +115,3 @@ function changeFO() {
     const element = document.getElementById("leo_title");
     element.innerHTML = '<a id="leo_nine" href="#leo_FO" style="text-decoration:none;">멋사 정보</a>';
 }
- 
