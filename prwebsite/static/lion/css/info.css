@@ -1,97 +1,109 @@
 .info {
-    position: relative;
     overflow: hidden;
 }
 
 .title {
-    font-size: 20px;
+    font-size: 1.3vw;
     font-weight: bolder;
-}
-
-p {
-    font-size: 15px;
 }
 
 .introduce {
     position: relative;
-    margin: 100px 100px 100px 0;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
 }
 
-.introduce > .title {
-    position: relative;
-    top: 30px;
-    left: 1040px;
+.introduce p {
+    text-align: right;
+    margin-right: 3vw;
 }
 
 .info_box {
     display: flex;
-    text-align: right;
+    border-right: 0.2vw solid #FF9E1B;
+    margin-right: 2vw;
 }
 
-img[src ^= "https://skhu-likelion-9th.github.io/likeInformative_Lion/images/slide%201.jpg"] {
-    border-radius: 0%;
-    width: 500px;
-    height: 333px;
-    padding: 0 100px 0 100px;
+.info_box img {
+    width: 40vw;
+    height: auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
-.introduce > .info_box > .border {
-    padding-right: 15px;
-    border-right: 1px solid #FF9E1B;
-    margin: 55px 0 55px 40px;
+.info_box p {
+    text-align: left;
+    font-size: 1vw;
+    padding: 5vw;
 }
 
-img[src ^= "static/info/star.png"] {
+#info_star {
     position: absolute;
-    width: 70px;
-    height: 70px;
-    right: -4px;
-    bottom: 20px;
+    max-width: 8%;
+    height: auto;
+    left: 93.9%;
+    top: 75%;
 }
 
 .recruit {
     position: relative;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-left: 10vw;
+    padding-bottom: 10vw;
 }
 
-.recruit > .title {
-    position: relative;
-    top: 170px;
-    left: 760px;
+.recruit p {
+    padding-left: 45vw;
 }
 
-.recruit_box { 
+.recruit_box {
     display: flex;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
-img[src ^= "https://skhu-likelion-9th.github.io/likeInformative_Lion/images/slide%202.jpg"] {
-    border-radius: 0%;
-    width: 360px;
-    height: 270px;
-    padding: 100px 0 100px 300px;
+.recruit_box img {
+    display: flex;
+    width: 30vw;
+    height: auto;
+    padding-right: 5vw;
 }
 
-.recruit_box > p {
-    padding: 170px 0 0 100px;
+.recruit_box p {
+    text-align: left;
+    font-size: 1vw;
+    padding: 5vw;
 }
 
 .schedule {
     position: relative;
-    left: 10%;
-    padding: 100px;
+    padding-bottom: 10vw;
+    margin-left: 10vw;
 }
 
-.schedule > .schedule_container {
+.schedule title {
+    padding-bottom: 1vw;
+}
+
+.schedule #schedule {
+    font-size: 1vw;
+    padding-bottom: 0.5vh;
+}
+
+.schedule_container {
     overflow: auto;
-    width: 1000px;
-    height: 200px;
-    padding-left: 15px;
-    border-left: 1px solid #FF9E1B;
+    margin-left: 3vw;
+    margin-right: 5vw;
+    padding-left: 2vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    line-height: 2vw;
+    width: 72vw;
+    height: 15vw;
+    border-left: 0.2vw solid #FF9E1B;
 }
 
 .schedule_container::-webkit-scrollbar {
-    width: 8px;
+    width: 0.5vw;
 }
 
 .schedule_container::-webkit-scrollbar-thumb {
@@ -99,25 +111,44 @@ img[src ^= "https://skhu-likelion-9th.github.io/likeInformative_Lion/images/slid
 }
 
 .video {
-    padding: 100px;
-    text-align: center;
+    position: relative;
+    padding-bottom: 10vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 video {
-    width: 85%;
-    height: auto;
-    border: 15px solid #FF9E1B;
+    width: 69vw;
+    border: 0.5vw solid #FF9E1B;
 }
 
 .must {
+    width: 20vw;
     position: relative;
-    left: 15%;
-    margin: 100px;
-    padding-left: 15px;
-    border-left: 1px solid #FF9E1B;
+    padding-bottom: 2vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 10vw;
+    padding-left: 2vw;
+    line-height: 2vw;
+    border-left: 0.2vw solid #FF9E1B;
 }
 
-.download:hover {
+.must p {
+    font-size: 1vw;
+}
+
+.rule {
+    padding-bottom: 3vw;
+}
+
+.link {
+    font-size: 1.5vw;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
     color: #FF9E1B;
-    cursor: pointer;
+    cursor: pointer
 }

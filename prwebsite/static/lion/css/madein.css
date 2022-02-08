@@ -1,0 +1,64 @@
+.programmers{
+    position : relative;
+    width : 150px;
+    height: 150px;
+    overflow : hidden;
+    background-image: url("/static/lion/img/sina/신아.jpg");
+    background-size : cover;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+
+.line:first-child .madein:nth-child(2) .programmers:first-child{
+    background-image: url("/static/lion/img/sina/강민정.jpeg");
+} 
+.line:first-child .madein:nth-child(3) .programmers:first-child{
+    background-image: url("/static/lion/img/sina/주영빈.jpeg");
+} 
+.line:first-child .madein:nth-child(4) .programmers:first-child{
+    background-image: url("/static/lion/img/sina/은혜.jpeg");
+} 
+.line:last-child .madein:nth-child(1) .programmers:first-child{
+    background-image: url("/static/lion/img/sina/세은.jpeg");
+} 
+.line:last-child .madein:nth-child(2) .programmers:first-child{
+    background-image: url("/static/lion/img/sina/규빈.jpeg");
+}
+.line:last-child .madein:nth-child(3) .programmers:first-child{
+    background-image: url("/static/lion/img/sina/수진.jpeg");
+}
+.line:last-child .madein:last-child .programmers:first-child{
+    background-image: url("/static/lion/img/sina/김예지.jpeg");
+} 
+
+.programmers:hover .hidden_madein_box{
+    top : 0;
+    
+}
+.hidden_madein_box{
+    top : 150px;
+    background-color : rgba(255,165,0,0.5);
+    position : absolute;
+    width : 150px;
+    height : 150px;
+    transition : all 0.5s;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    display: flex;
+    justify-content: center;
+}
+.google_form{
+    background-color: black;
+    border : 1px solid orange;
+    color : white;
+    padding: 20px;
+    width : 100px;
+    margin-top : 20px;
+    text-decoration: none;
+}
+a:link { color: white; text-decoration: none;}
+a:visited { color: white; text-decoration: none;}
+a:hover { color: white; text-decoration: none;}
