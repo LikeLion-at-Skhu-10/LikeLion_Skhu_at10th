@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{% static 'lion/css/event.css' %}">
     <link rel='stylesheet' href="{% static 'lion/css/index.css'%}"> 
+    <link rel='stylesheet' href="{% static 'lion/css/slide.css'%}"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
@@ -21,7 +22,6 @@
 
     <div id='wrapper'>
         <div class="leo">
-            <p>사자 그림 자체를 어둡게 하고, 그 위에 별자리를 두고, 각 별마다 옆에 글자가 나오는 방식으로 제작 예정</p>
         </div>
 
         <div class="info">
@@ -87,7 +87,41 @@
         </div>
 
         <div class="slide">
-            
+            <span>이미지를 클릭하면 해당 서비스 페이지로 이동합니다.</span>
+            <div class="slide-container">
+                <ul class="slides-box">
+                    
+                    <li class="slide-li">
+                        <img class="slide-img" src="{% static 'lion/img/banner1.png' %}"></li>
+                    <li class="slide-li">
+                        <a href="https://sharebookrest.herokuapp.com/">
+                            <img class="slide-img" src="{% static 'lion/img/banner2_bookrest.png' %}"></a>
+                        </li>
+                    <li class="slide-li">
+                        <a href="https://likelionatskhu9jamjam.herokuapp.com/">
+                            <img class="slide-img" src="{% static 'lion/img/banner3_jamjam.png' %}"></a>
+                        </li>
+                    <li class="slide-li">
+                        <a href="https://pore-likelion.herokuapp.com/">
+                            <img class="slide-img" src="{% static 'lion/img/banner4_pore.png' %}"></a>
+                        </li>
+                    <li class="slide-li">
+                        <a href="https://mucksal-project.herokuapp.com/">
+                            <img class="slide-img" src="{% static 'lion/img/banner5_mucksal.png' %}"></a>
+                        </li>
+                    <li class="slide-li">
+                        <a href="https://gigoogigeulz9z9.herokuapp.com/">
+                            <img class="slide-img" src="{% static 'lion/img/banner6_earth.png '%}"></a>
+                        </li>
+                </ul>
+                
+                <p class="controller"> 
+                    <span class="prev">&lang;</span> 
+                    <span class="next">&rang;</span> 
+                </p>
+
+            </div>
+            <script src="{% static 'lion/js/slide.js' %}"></script>
         </div>
 
         <div class="event">
