@@ -11,7 +11,7 @@
 .leo p {
     font-size: 2.5rem;
     line-height: 0.04em; /*문장 세로 간격*/
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 .leo hr {
@@ -170,3 +170,234 @@
         right: 16%;
     }
 }
+
+#leo_one {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_one::before {
+    content: "소개영상";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+    bottom: 10%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;;
+  }
+  
+  @keyframes typing{
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+#leo_two {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_two::before {
+    content: "멋사소개";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+    bottom: 10%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;;
+  }
+
+#leo_three {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_three::before {
+    content: "모집대상";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+    bottom: 10%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;;
+  }
+  
+#leo_four {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_four::before {
+    content: "모집일정";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+    bottom: 10%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;;
+  }
+
+#leo_five {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_five::before {
+    content: "규칙 & 커리큘럼";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+    bottom: 10%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;;
+  }
+
+#leo_six {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_six::before {
+    content: "지난해 프로젝트";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+    bottom: 10%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;;
+  }
+
+
+#leo_seven {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_seven::before {
+    content: "이벤트 참여";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+    bottom: 10%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;;
+  }
+
+#leo_eight {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_eight::before {
+    content: "개발진들";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+    bottom: 10%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;;
+  }
+
+#leo_nine {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_nine::before {
+    content: "멋사 정보";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+    bottom: 10%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;;
+  }
