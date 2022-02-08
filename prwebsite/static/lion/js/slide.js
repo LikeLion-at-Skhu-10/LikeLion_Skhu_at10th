@@ -56,12 +56,12 @@ next.addEventListener('click', function(){
 
 prev.addEventListener('click', function(){
     if (currentIdx >=0) {
-        slides.style.left = -currentIdx * (slideWidth + slideMargin)+'px';
+        slides.style.left = -currentIdx * (slideWidth)+'vw';
         slides.style.transition = `${0.5}s ease-out`;
     }
     if (currentIdx === 0){
         setTimeout(function() {
-            slides.style.left = -slideCount * (slideWidth + slideMargin) +'px';
+            slides.style.left = -slideCount * (slideWidth) +'vw';
             slides.style.transition = `${0}s ease-out`;
         }, 500);
         currentIdx = slideCount;
