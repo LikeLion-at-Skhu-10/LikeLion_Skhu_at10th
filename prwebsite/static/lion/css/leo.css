@@ -192,7 +192,7 @@
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
   
   @keyframes typing{
@@ -230,7 +230,7 @@
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
 
 #leo_three {
@@ -254,7 +254,7 @@
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
   
 #leo_four {
@@ -278,7 +278,7 @@
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
 
 #leo_five {
@@ -302,7 +302,7 @@
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
 
 #leo_six {
@@ -326,7 +326,7 @@
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
 
 
@@ -351,7 +351,7 @@
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
 
 #leo_eight {
@@ -375,7 +375,7 @@
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
 
 #leo_nine {
@@ -399,5 +399,5 @@
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
