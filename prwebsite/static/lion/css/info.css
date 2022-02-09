@@ -3,102 +3,98 @@
 }
 
 .title {
-    font-size: 1.3vw;
+    font-size: 2vw;
     font-weight: bolder;
 }
 
 .introduce {
     position: relative;
-    padding-top: 10vw;
-    padding-bottom: 10vw;
+    padding: 10vw 5vw 10vw 5vw;
 }
 
 .introduce p {
     text-align: right;
-    margin-right: 3vw;
 }
 
 .info_box {
     display: flex;
     border-right: 0.2vw solid #FF9E1B;
-    margin-right: 2vw;
 }
 
 .info_box img {
-    width: 40vw;
-    height: auto;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    width: 35vw;
+    height: 25vw;
+    padding-top: 2.5vw;
 }
 
-.info_box p {
-    text-align: left;
-    font-size: 1vw;
-    padding: 5vw;
+.intro_container {
+    width: 50vw;
+    height: 30vw;
+    padding-left: 3vw;
+    padding-right: 2vw;
+}
+
+.intro_container .title {
+    text-align: right;
+    font-size: 2vw;
+}
+
+.intro_container p {
+    text-align: right;
+    font-size: 1.4vw;
 }
 
 #info_star {
     position: absolute;
     max-width: 8%;
     height: auto;
-    left: 93.9%;
-    top: 75%;
+    left: 90.8%;
+    top: 73%;
 }
 
 .recruit {
     position: relative;
-    margin-left: 10vw;
-    padding-bottom: 10vw;
-}
-
-.recruit p {
-    padding-left: 45vw;
+    padding: 10vw 5vw 10vw 5vw;
 }
 
 .recruit_box {
     display: flex;
-    padding-left: 5vw;
-    padding-right: 5vw;
 }
 
 .recruit_box img {
-    display: flex;
-    width: 30vw;
-    height: auto;
-    padding-right: 5vw;
+    width: 35vw;
+    height: 25vw;
+    padding-top: 2.5vw;
 }
 
-.recruit_box p {
+.recruit_container {
+    width: 50vw;
+    height: 30vw;
+    padding-top: 5vw;
+    padding-left: 5vw;
+}
+
+.recruit_container .title {
+    font-size: 2vw;
+}
+
+.recruit_container p {
     text-align: left;
-    font-size: 1vw;
-    padding: 5vw;
+    font-size: 1.4vw;
 }
 
 .schedule {
     position: relative;
-    padding-bottom: 10vw;
-    margin-left: 10vw;
-}
-
-.schedule title {
-    padding-bottom: 1vw;
-}
-
-.schedule #schedule {
-    font-size: 1vw;
-    padding-bottom: 0.5vh;
+    padding: 10vw 5vw 10vw 5vw;
 }
 
 .schedule_container {
     overflow: auto;
-    margin-left: 3vw;
-    margin-right: 5vw;
-    padding-left: 2vw;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
-    line-height: 2vw;
-    width: 72vw;
-    height: 15vw;
+    height: 20vw;
+    margin-top: 3vw;
+    padding-left: 3vw;
+    line-height: 2.5vw;
+    font-size: 1.4vw;
     border-left: 0.2vw solid #FF9E1B;
 }
 
@@ -112,6 +108,7 @@
 
 .video {
     position: relative;
+    padding-top: 10vw;
     padding-bottom: 10vw;
     margin-left: 15vw;
     margin-right: 15vw;
@@ -123,19 +120,18 @@ video {
 }
 
 .must {
-    width: 20vw;
     position: relative;
-    padding-bottom: 2vw;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    margin-bottom: 10vw;
-    padding-left: 2vw;
-    line-height: 2vw;
+    margin: 10vw 5vw 10vw 5vw;
+    padding-left: 3vw;
     border-left: 0.2vw solid #FF9E1B;
 }
 
 .must p {
-    font-size: 1vw;
+    line-height: 2.5vw;
+}
+
+.must .title {
+    font-size: 2vw;
 }
 
 .rule {
