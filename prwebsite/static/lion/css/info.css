@@ -2,11 +2,6 @@
     overflow: hidden;
 }
 
-.title {
-    font-size: 2vw;
-    font-weight: bolder;
-}
-
 .introduce {
     position: relative;
     padding: 10vw 5vw 10vw 5vw;
@@ -70,8 +65,8 @@
 .recruit_container {
     width: 50vw;
     height: 30vw;
-    padding-top: 5vw;
-    padding-left: 5vw;
+    padding-top: 2.5vw;
+    padding-right: 5vw;
 }
 
 .recruit_container .title {
@@ -81,15 +76,27 @@
 .recruit_container p {
     text-align: left;
     font-size: 1.4vw;
+    line-height: 3vw;
 }
 
 .schedule {
     position: relative;
     padding: 10vw 5vw 10vw 5vw;
+    width: 90vw;
+    height: 40vw;
+}
+
+.schedule .title {
+    font-size: 2vw;
+}
+
+.schedule p {
+    font-size: 1.4vw;
 }
 
 .schedule_container {
     overflow: auto;
+    width: 84vw;
     height: 20vw;
     margin-top: 3vw;
     padding-left: 3vw;
@@ -123,7 +130,7 @@ video {
     position: relative;
     margin: 10vw 5vw 10vw 5vw;
     padding-left: 3vw;
-    border-left: 0.2vw solid #FF9E1B;
+    border-left: 0.3vw solid #FF9E1B;
 }
 
 .must p {
