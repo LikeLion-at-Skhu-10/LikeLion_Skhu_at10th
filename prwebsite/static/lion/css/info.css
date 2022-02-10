@@ -82,8 +82,8 @@
 .schedule {
     position: relative;
     padding: 10vw 5vw 10vw 5vw;
-    width: 90vw;
-    height: 40vw;
+    width: 88vw;
+    height: 35vw;
 }
 
 .schedule .title {
@@ -96,9 +96,8 @@
 
 .schedule_container {
     overflow: auto;
-    width: 84vw;
+    width: 85vw;
     height: 20vw;
-    margin-top: 3vw;
     padding-left: 3vw;
     line-height: 2.5vw;
     font-size: 1.4vw;
