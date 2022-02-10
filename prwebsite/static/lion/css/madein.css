@@ -3,7 +3,7 @@
     width : 150px;
     height: 150px;
     overflow : hidden;
-    background-image: url("/static/lion/img/sina/신아.jpg");
+    background-image: url("/static/lion/img/sina/규빈.jpeg");
     background-size : cover;
     margin-right:10px;
     margin-bottom: 10px;
@@ -13,22 +13,22 @@
     background-image: url("/static/lion/img/sina/강민정.jpeg");
 } 
 .line:first-child .madein:nth-child(3) .programmers:first-child{
-    background-image: url("/static/lion/img/sina/주영빈.jpeg");
+    background-image: url("/static/lion/img/sina/수진.jpeg");
 } 
 .line:first-child .madein:nth-child(4) .programmers:first-child{
-    background-image: url("/static/lion/img/sina/은혜.jpeg");
+    background-image: url("/static/lion/img/sina/신아.jpg");
 } 
 .line:last-child .madein:nth-child(1) .programmers:first-child{
-    background-image: url("/static/lion/img/sina/세은.jpeg");
+    background-image: url("/static/lion/img/sina/김예지.jpeg");
 } 
 .line:last-child .madein:nth-child(2) .programmers:first-child{
-    background-image: url("/static/lion/img/sina/규빈.jpeg");
+    background-image: url("/static/lion/img/sina/은혜.jpeg");
 }
 .line:last-child .madein:nth-child(3) .programmers:first-child{
-    background-image: url("/static/lion/img/sina/수진.jpeg");
+    background-image: url("/static/lion/img/sina/주영빈.jpeg");
 }
 .line:last-child .madein:last-child .programmers:first-child{
-    background-image: url("/static/lion/img/sina/김예지.jpeg");
+    background-image: url("/static/lion/img/sina/세은.jpeg");
 } 
 
 .programmers:hover .hidden_madein_box{
