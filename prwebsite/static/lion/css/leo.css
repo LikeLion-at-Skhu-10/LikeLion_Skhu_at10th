@@ -9,23 +9,23 @@
 }
 
 .leo p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 0.04em; /*문장 세로 간격*/
-    padding-left: 10%;
+    padding-left: 7%;
 }
 
 .leo hr {
-    width: 30em;
+    width: 25em;
     height: 0.2em;
     border: none;
     background-color: #FF9E1B;
 }
 
 #leo_search {
-    width: 9%;
+    width: 7%;
     height: auto;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 5%;
 }
 
@@ -186,13 +186,13 @@
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 10%;
-    bottom: 10%;
+    padding-top: 17%;
+    bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
   
   @keyframes typing{
@@ -224,13 +224,13 @@
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 10%;
-    bottom: 10%;
+    padding-top: 17%;
+    bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
 
 #leo_three {
@@ -248,13 +248,13 @@
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 10%;
-    bottom: 10%;
+    padding-top: 17%;
+    bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
   
 #leo_four {
@@ -272,13 +272,13 @@
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 10%;
-    bottom: 10%;
+    padding-top: 17%;
+    bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
 
 #leo_five {
@@ -297,12 +297,12 @@
     width: 100%;
     height: 50%;
     padding-top: 10%;
-    bottom: 10%;
+    bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
 
 #leo_six {
@@ -321,12 +321,12 @@
     width: 100%;
     height: 50%;
     padding-top: 10%;
-    bottom: 10%;
+    bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
 
 
@@ -345,13 +345,13 @@
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 10%;
-    bottom: 10%;
+    padding-top: 14%;
+    bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
 
 #leo_eight {
@@ -365,17 +365,17 @@
   }
   
 #leo_eight::before {
-    content: "개발진들";
+    content: "운영진들";
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 10%;
-    bottom: 10%;
+    padding-top: 17%;
+    bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }
 
 #leo_nine {
@@ -393,11 +393,11 @@
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 10%;
-    bottom: 10%;
+    padding-top: 17%;
+    bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
     border-right: .10em solid orange;
     animation: typing 1s, 
-    blink-caret .7s step-end infinite;;
+    blink-caret .7s step-end infinite;
   }

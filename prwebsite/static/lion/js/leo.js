@@ -108,7 +108,7 @@ function changeEV() {
 
 function changeMA() {
     const element = document.getElementById("leo_title");
-    element.innerHTML = '<a id="leo_eight" href="#leo_MA" style="text-decoration:none;">개발진들</a>';
+    element.innerHTML = '<a id="leo_eight" href="#leo_MA" style="text-decoration:none;">운영진들</a>';
 }
 
 function changeFO() {
