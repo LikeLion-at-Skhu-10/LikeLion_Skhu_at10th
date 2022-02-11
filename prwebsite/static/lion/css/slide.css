@@ -1,5 +1,6 @@
 .slide {
     text-align: center;
+
 }
 
 .slide-li {
@@ -12,10 +13,11 @@
 }
 
 .slide-container {
-    width: 1500px; 
-    height: 800px; 
+    width: 70vw;
+    height: 40vw;
     position: relative; 
-    margin: 50px auto;
+    /* margin: 50px auto; */
+    margin: 0 auto;
     overflow: hidden;
     
 }
@@ -32,17 +34,12 @@
 
 .slides-box li:not(:last-child){
     float: left;
-    margin-right: 100px;
-}
-
-.slides li:first-child{ 
-    margin-left: 100px; 
 }
 
 
 .slide-img {
-    width: 1500px;
-    height: 800px;
+    width: 70vw;
+    height: 40vw;
 }
 
 .controller span{

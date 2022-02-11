@@ -1,0 +1,156 @@
+.info {
+    overflow: hidden;
+}
+
+.introduce {
+    position: relative;
+    padding: 10vw 5vw 10vw 5vw;
+}
+
+.introduce p {
+    text-align: right;
+}
+
+.info_box {
+    display: flex;
+    border-right: 0.2vw solid #FF9E1B;
+}
+
+.info_box img {
+    width: 35vw;
+    height: 25vw;
+    padding-top: 2.5vw;
+}
+
+.intro_container {
+    width: 50vw;
+    height: 30vw;
+    padding-left: 3vw;
+    padding-right: 2vw;
+}
+
+.intro_container .title {
+    text-align: right;
+    font-size: 2vw;
+}
+
+.intro_container p {
+    text-align: right;
+    font-size: 1.4vw;
+}
+
+#info_star {
+    position: absolute;
+    max-width: 8%;
+    height: auto;
+    left: 90.8%;
+    top: 73%;
+}
+
+.recruit {
+    position: relative;
+    padding: 10vw 5vw 10vw 5vw;
+}
+
+.recruit_box {
+    display: flex;
+}
+
+.recruit_box img {
+    width: 35vw;
+    height: 25vw;
+    padding-top: 2.5vw;
+}
+
+.recruit_container {
+    width: 50vw;
+    height: 30vw;
+    padding-top: 2.5vw;
+    padding-right: 5vw;
+}
+
+.recruit_container .title {
+    font-size: 2vw;
+}
+
+.recruit_container p {
+    text-align: left;
+    font-size: 1.4vw;
+    line-height: 3vw;
+}
+
+.schedule {
+    position: relative;
+    padding: 10vw 5vw 10vw 5vw;
+    width: 88vw;
+    height: 35vw;
+}
+
+.schedule .title {
+    font-size: 2vw;
+}
+
+.schedule p {
+    font-size: 1.4vw;
+}
+
+.schedule_container {
+    overflow: auto;
+    width: 85vw;
+    height: 20vw;
+    padding-left: 3vw;
+    line-height: 2.5vw;
+    font-size: 1.4vw;
+    border-left: 0.2vw solid #FF9E1B;
+}
+
+.schedule_container::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+.schedule_container::-webkit-scrollbar-thumb {
+    background-color: #FF9E1B;
+}
+
+.video {
+    position: relative;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+video {
+    width: 69vw;
+    border: 0.5vw solid #FF9E1B;
+}
+
+.must {
+    position: relative;
+    margin: 10vw 5vw 10vw 5vw;
+    padding-left: 3vw;
+    border-left: 0.3vw solid #FF9E1B;
+}
+
+.must p {
+    line-height: 2.5vw;
+}
+
+.must .title {
+    font-size: 2vw;
+}
+
+.rule {
+    padding-bottom: 3vw;
+}
+
+.link {
+    font-size: 1.5vw;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #FF9E1B;
+    cursor: pointer
+}
