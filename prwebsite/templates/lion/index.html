@@ -5,10 +5,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'lion/css/leo.css' %}">
     <link rel="stylesheet" href="{% static 'lion/css/event.css' %}">
     <link rel="stylesheet" href="{% static 'lion/css/madein.css' %}">
     <link rel='stylesheet' href="{% static 'lion/css/index.css'%}"> 
     <link rel='stylesheet' href="{% static 'lion/css/slide.css'%}"> 
+    <link rel='stylesheet' href="{% static 'lion/css/info.css'%}"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
@@ -23,67 +25,107 @@
 
     <div id='wrapper'>
         <div class="leo">
+            <div class="leo_top">
+                <br><p id="leo_title">별을 클릭해 보세요</p>
+                <hr><img id="leo_search" src="static/lion/img/leo/검색.png" alt="검색">
+            </div>
+            <br><br>
+            <div class="leo_bottom">
+                <img id="leo_lion" src="static/lion/img/leo/leo.png" alt="사자별자리">
+                <div class="leo_star">
+                    <img id="leo_video" src="static/lion/img/leo/반짝이1.png" onclick="changeVI(), out(leo_video), over(leo_lion), over(leo_introduce), over(leo_recruit), over(leo_schedule), over(leo_rulecurri), over(leo_slide), over(leo_event), over(leo_madein), over(leo_footer)" alt="별"></a>
+                    <img id="leo_introduce" src="static/lion/img/leo/반짝이2.png" onclick="changeIN(), out(leo_introduce), over(leo_lion), over(leo_video), over(leo_recruit), over(leo_schedule), over(leo_rulecurri), over(leo_slide), over(leo_event), over(leo_madein), over(leo_footer)" alt="별">
+                    <img id="leo_recruit" src="static/lion/img/leo/반짝이3.png" onclick="changeRE(), out(leo_recruit), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_schedule), over(leo_rulecurri), over(leo_slide), over(leo_event), over(leo_madein), over(leo_footer)" alt="별">
+                    <img id="leo_schedule" src="static/lion/img/leo/반짝이4.png" onclick="changeSC(), out(leo_schedule), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_recruit), over(leo_rulecurri), over(leo_slide), over(leo_event), over(leo_madein), over(leo_footer)" alt="별">
+                    <img id="leo_rulecurri" src="static/lion/img/leo/반짝이5.png" onclick="changeMU(), out(leo_rulecurri), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_recruit), over(leo_schedule), over(leo_slide), over(leo_event), over(leo_madein), over(leo_footer)" alt="별">
+                    <img id="leo_slide" src="static/lion/img/leo/반짝이6.png" onclick="changeSL(), out(leo_slide), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_recruit), over(leo_schedule), over(leo_rulecurri), over(leo_event), over(leo_madein), over(leo_footer)" alt="별">
+                    <img id="leo_event" src="static/lion/img/leo/반짝이7.png" onclick="changeEV(), out(leo_event), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_recruit), over(leo_schedule), over(leo_rulecurri), over(leo_slide), over(leo_madein), over(leo_footer)" alt="별">
+                    <img id="leo_madein" src="static/lion/img/leo/반짝이8.png" onclick="changeMA(), out(leo_madein), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_recruit), over(leo_schedule), over(leo_rulecurri), over(leo_slide), over(leo_event), over(leo_footer)" alt="별">
+                    <img id="leo_footer" src="static/lion/img/leo/반짝이9.png" onclick="changeFO(), out(leo_footer), over(leo_lion), over(leo_video), over(leo_introduce), over(leo_recruit), over(leo_schedule), over(leo_rulecurri), over(leo_slide), over(leo_event), over(leo_madein)" alt="별">
+                </div>
+            </div>
+            <script src="{% static 'lion/js/leo.js' %}"></script>
         </div>
+        <br>
 
         <div class="info">
-            <div class="introduce">
-                <p class="title">멋쟁이 사자처럼이 무엇인가요?</p>
-                <p>
-                    "HACK YOUR LIFE 내 아이디어를 내 손으로 실현한다"의 가치 아래에서 <br>
-                    시작된 전국 연합 동아리 멋쟁이 사자처럼. <br>
-                    <br>
-                    멋쟁이 사자처럼은 자신만의 아이디어를 코딩을 통해 구현해나가는 프로그래밍 동아리입니다. <br>
-                    우리 멋쟁이 사자처럼 성공회대학교는 2022년을 함께 나아갈 아기사자를 찾고 있습니다. <br>
-                    멋쟁이 사자처럼에서 함께 성장할 아기사자를 모집합니다 !
-                </p>
+            <div class="introduce" id="leo_IN">
+                <div class="info_box">
+                    <img id="skhu1" src="{% static 'lion/img/info/skhu1.jpeg' %}" alt="멋사 성공회대 사진 1">
+                    <div class="intro_container">
+                        <p class="title">🦁"멋쟁이 사자처럼"이 무엇인가요?</p>
+                        <p>
+                            "<span class = "orange">HACK YOUR LIFE</span> 내 아이디어를 내 손으로 실현한다"의 가치 아래에서 시작된 <br>
+                            전국 연합 동아리 멋쟁이 사자처럼. <br>
+                            <br>
+                            자신이 생각했던 아이디어를 구체화하고 프로그래밍 교육을 통해 <br>
+                            웹서비스 구현을 목표로 활동하는 전국 연합동아리입니다. <br>
+                            프로그래밍에 대해 전혀 모르는 비전공자도, 신입생도 환영합니다. <br>
+                            <br>
+                            우리 멋쟁이 사자처럼 성공회대학교는 <br>
+                            2022년을 함께 나아갈 아기사자를 찾고 있습니다. <br>
+                            멋쟁이 사자처럼에서 함께 성장할 아기사자를 모집합니다 !
+                        </p>
+                    </div>
+                </div>
+                <img id="info_star" src="{% static 'lion/img/info/star.png' %}" alt="별">
+                </div>
             </div>
 
-            <div class="recruit">
-                <p class="title">모집대상</p>
-                <p>
-                    전공자/비전공자 상관없이 나의 아이디어를 웹 서비스를 구현해보고 싶은 누구나! <br>
-                    해커톤과 넥슨 MOD를 통해 개발 경험을 쌓아보고 싶은 누구나! <br>
-                    Django와 Python을 통한 웹 서비스를 구축해보고 싶은 누구나! <br>
-                    멋쟁이 사자처럼 성공회대학교가 기다리고 있습니다 🦁
-                </p>
+            <div class="recruit" id="leo_RE">
+                <div class="recruit_box">
+                    <div class="recruit_container">
+                        <p class="title">모집대상</p>
+                        <p>
+                            ☝🏻 전공자/비전공자 상관없이 나의 아이디어를 웹 서비스를 구현해보고 싶은 누구나! <br>
+                            ✌🏻 해커톤과 넥슨 MOD를 통해 개발 경험을 쌓아보고 싶은 누구나! <br>
+                            👌🏻 Django와 Python을 통한 웹 서비스를 구축해보고 싶은 누구나! <br>
+                            <br><br>
+                            멋쟁이 사자처럼 성공회대학교가 기다리고 있습니다 🦁
+                        </p>
+                    </div>
+                    <img id="skhu2" src="{% static 'lion/img/info/skhu2.jpeg' %}" alt="멋사 성공회대 사진 2">
+                </div>
             </div>
 
-            <div class="schedule">
+            <div class="schedule" id="leo_SC">
                 <p class="title">모집일정</p>
                 <p>
                     구글폼을 이용한 1차 면접과 비대면(ex. 줌)을 통한 2차 면접을 진행합니다.
                 </p>
                 <div class="schedule_container">
-                    2월 21일 - 3월 11일 : 서류 모집 기간 <br>
-                    3월 14일 - 3월 18일 : 면접 <br>
-                    3월 20일 이후 멋쟁이 사자처럼 활동 시작 <br>
+                    2월 21일 - 3월 8일 : 구글폼을 이용한 서류 모집 기간 <br><br> 
+                    3월 10일 : 서류 합격 통보 <br><br>
+                    3월 14일 - 3월 16일 : 비대면 프로그램을 이용한 2차 면접 <br><br>
+                    3월 18일 : 멋쟁이 사자처럼 성공회대 최종 선별 <br><br>
+                    3월 22일 : 멋쟁이 사자처럼 성공회대 OT <br><br>
+                    3월 26일 : 멋쟁이 사자처럼 중앙 OT 
                 </div>
             </div>
-
+                
             <div class="video">
-                <p class="title">소개영상</p>
+                <video src="{% static 'lion/video/info/likelion_skhu.mp4' %}" controls>
+                </video>
             </div>
 
-            <div class="rule">
-                <p class="title">멋쟁이 사자처럼 규칙</p>
-                <p>
-                    멋쟁이 사자처럼 10기로 함께 활동하고 싶다면 <br>
-                    아래 규칙을 정독한 후에 지원서를 작성해주시길 바랍니다 ! <br>
-                    <br>
-                    멋쟁이 사자처럼 성공회대 규칙 <br>
-                    (다운로드)
-                </p>
-            </div>
+            <div class="must" id="leo_MU">                
+                <div class="rule">
+                    <p class="title">멋쟁이 사자처럼 규칙</p>
+                    <p>
+                        멋쟁이 사자처럼 10기로 함께 활동하고 싶다면 <br>
+                        아래 규칙을 정독한 후에 지원서를 작성해주시길 바랍니다 ! <br>
+                    </p>
+                    <a class="link" href="{% static 'lion/img/info/likelion_rule.pdf' %}" download> 멋쟁이 사자처럼 규칙 </a>
+                </div>
 
-            <div class="curriculum">
-                <p class="title">멋쟁이 사자처럼 커리큘럼</p>
-                <p>
-                    Html/Css, Javascript, Python, Django를 기반으로 활동합니다 <br>
-                    자세한 내용이 궁금하다면 아래 커리큘럼을 확인해주세요. <br>
-                    <br>
-                    멋쟁이 사자처럼 성공회대 커리큘럼 <br>
-                    (다운로드)
-                </p>
+                <div class="curriculum">
+                    <p class="title">멋쟁이 사자처럼 커리큘럼</p>
+                    <p>
+                        멋쟁이 사자처럼 10기는 <br>
+                        기본적인 개발 언어 교육과 선호 트랙에 따른 심화 교육을 진행합니다 ! <br>
+                    </p>
+                    <a class="link" href="{% static 'lion/img/info/likelion_curriculum.pdf' %}" download> 멋쟁이 사자처럼 커리큘럼 </a>
+                </div>
             </div>
         </div>
 
@@ -126,28 +168,31 @@
         </div>
 
         <div class="event">
-            <div class="all_in_one">
-                <div class="slider_header">
-                    <div class="color_circle"></div>
-                    <div class="color_circle"></div>
-                    <div class="color_circle"></div>
-        
+            <div class="event_text">
+                <p class="event_title">🦁 멋사 이벤트 🦁</p>
+                <div class= "event_text_quiz">
+                    <p>
+                        아무나 상관없이! 간단한 퀴즈를 풀고 상품 받아가자!
+                    </p>
+                    <p>
+                        이 문제들은 페이지를 자세히 살펴보면 풀 수 있는 간단한 문제들이니 한번 참여해보세요!
+                    </p>
+                    <p class="padding">
+                        <span>1️⃣</span>  멋쟁이 사자처럼 운영진 수는 몇 명일까요?
+                    </p>
+                    <p class="padding">
+                        <span>2️⃣</span>  "멋쟁이 사자처럼"의 활동 시간이 아닌 것은?
+                    </p>
+                    <p class="padding">
+                        <span>3️⃣</span>  멋쟁이 사자처럼에서 배우는 것이 아닌 것은?
+                    </p>
                 </div>
-                <img class="pre_button" src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-left-arrow-arrows-dreamstale-lineal-dreamstale-6.png"/>
-                <div class="my_slider_box">
-                    <div class="my_slider_list">
-                        <div class="slider_content">Q.멋쟁이 사자의 대표는?</div>
-                        <div class="slider_content">2</div>
-                        <div class="slider_content">3</div>
-                    </div>
-                </div>
-                <img class="next_button"src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-right-arrow-arrows-dreamstale-lineal-dreamstale-5.png"/>
             </div>
-            <button class="google_form"><a href="#">Go</a></button>
+            <button class="google_form"><a href="#">바로 참여하러 가기 →</a></button>
         </div>
 
-        <div>
-            <!-- madein : 김신아-->
+        <h5 class="programmers_title">programmers</h5>
+        <div class="line_total_cover">
             <div class = "line">
                 <div class="madein">
                     <div class="programmers">
@@ -205,9 +250,6 @@
         <p class = "insta"><span class = "orange">INSTAGRAM</span> @likelion_skhu</p>
         <br>
     </footer>
-
-
-    <script src="{% static 'lion/js/event.js' %}"></script>
 </body>
 
 </html>

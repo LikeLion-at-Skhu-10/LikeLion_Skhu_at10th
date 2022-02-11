@@ -50,15 +50,15 @@
     display: flex;
     justify-content: center;
 }
-.google_form{
-    background-color: black;
-    border : 1px solid orange;
-    color : white;
-    padding: 20px;
-    width : 100px;
-    margin-top : 20px;
-    text-decoration: none;
+
+
+.line_total_cover{
+    margin-bottom: 100px;
 }
 a:link { color: white; text-decoration: none;}
 a:visited { color: white; text-decoration: none;}
 a:hover { color: white; text-decoration: none;}
+
+.programmers_title{
+    text-align: center;
+}
