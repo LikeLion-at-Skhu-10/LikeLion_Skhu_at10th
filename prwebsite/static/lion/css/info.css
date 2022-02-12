@@ -110,6 +110,8 @@
 
 .schedule_container::-webkit-scrollbar-thumb {
     background-color: #FF9E1B;
+    border-top: 4vw solid black;
+    border-bottom: 4vw solid black;
 }
 
 .video {
