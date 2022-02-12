@@ -34,7 +34,7 @@
 }
 
 #leo_lion {
-    width: 60%;
+    width: 70%;
     height: auto;
     border-radius: 0%;
 }
@@ -47,56 +47,56 @@
 
 #leo_video {
     position: absolute;
-    top: 9%;
-    right: 19%;
+    top: 10%;
+    right: 16%;
 }
 
 #leo_introduce {
     position: absolute;
-    top: 1.2%;
-    right: 25.5%;
+    top: 2.7%;
+    right: 21.8%;
 }
 
 #leo_recruit {
     position: absolute;
-    top: 7.5%;
-    right: 32.1%;
+    top: 8.5%;
+    right: 29.8%;
 }
 
 #leo_schedule {
     position: absolute;
-    top: 24.4%;
-    right: 34.3%;
+    top: 25.8%;
+    right: 32.6%;
 }
 
 #leo_rulecurri {
     position: absolute;
-    top: 18.8%;
-    left: 33.3%;
+    top: 20.5%;
+    left: 31.5%;
 }
 
 #leo_slide {
     position: absolute;
-    top: 40.2%;
-    left: 20.6%;
+    top: 42%;
+    left: 16.5%;
 }
 
 #leo_event {
     position: absolute;
-    top: 41.8%;
-    left: 36.1%;
+    top: 43.5%;
+    left: 34.9%;
 }
 
 #leo_madein {
     position: absolute;
-    top: 55.4%;
-    right: 28%;
+    top: 56.7%;
+    right: 25.3%;
 }
 
 #leo_footer {
     position: absolute;
-    top: 35.7%;
-    right: 27%;
+    top: 37.8%;
+    right: 24.2%;
 }
 
 @media screen and (max-device-width: 425px){

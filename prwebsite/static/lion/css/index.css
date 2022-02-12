@@ -4,6 +4,8 @@ body{
     color:white;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    padding: 10px;
+    margin: 10px;
 }
 body::-webkit-scrollbar{
     display: none;
@@ -12,7 +14,8 @@ body::-webkit-scrollbar{
 #wrapper{
     height: auto;
     min-height: 100%;
-    padding-bottom: 40px;
+    padding: 0px 5vw 0px 5vw;
+    margin: 0px 5vw 0px 5vw;
 
 }
 
@@ -35,7 +38,7 @@ header{
 .header_text{
     float: left;
     width: 50%;
-    padding: 10px 0 0 20px;
+    padding: 5px 0 0 20px;
     font-weight: bolder;
 }
 
