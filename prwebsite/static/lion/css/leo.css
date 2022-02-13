@@ -34,7 +34,7 @@
 }
 
 #leo_lion {
-    width: 60%;
+    width: 70%;
     height: auto;
     border-radius: 0%;
 }
@@ -47,56 +47,56 @@
 
 #leo_video {
     position: absolute;
-    top: 9%;
-    right: 19%;
+    top: 10%;
+    right: 15%;
 }
 
 #leo_introduce {
     position: absolute;
-    top: 1.2%;
-    right: 25.5%;
+    top: 2.7%;
+    right: 22%;
 }
 
 #leo_recruit {
     position: absolute;
-    top: 7.5%;
-    right: 32.1%;
+    top: 8.5%;
+    right: 29.8%;
 }
 
 #leo_schedule {
     position: absolute;
-    top: 24.4%;
-    right: 34.3%;
+    top: 25.8%;
+    right: 32.6%;
 }
 
 #leo_rulecurri {
     position: absolute;
-    top: 18.8%;
-    left: 33.3%;
+    top: 20.5%;
+    left: 31.5%;
 }
 
 #leo_slide {
     position: absolute;
-    top: 40.2%;
-    left: 20.6%;
+    top: 42%;
+    left: 16.5%;
 }
 
 #leo_event {
     position: absolute;
-    top: 41.8%;
-    left: 36.1%;
+    top: 43.5%;
+    left: 34.5%;
 }
 
 #leo_madein {
     position: absolute;
-    top: 55.4%;
-    right: 28%;
+    top: 56.7%;
+    right: 25%;
 }
 
 #leo_footer {
     position: absolute;
-    top: 35.7%;
-    right: 27%;
+    top: 37.8%;
+    right: 24.2%;
 }
 
 @media screen and (max-device-width: 425px){
@@ -182,11 +182,11 @@
   }
   
 #leo_one::before {
-    content: "소개영상";
+    content: "소개영상 이동";
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 17%;
+    padding-top: 11%;
     bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
@@ -220,11 +220,11 @@
   }
   
 #leo_two::before {
-    content: "멋사소개";
+    content: "멋사소개 이동";
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 17%;
+    padding-top: 11%;
     bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
@@ -244,11 +244,11 @@
   }
   
 #leo_three::before {
-    content: "모집대상";
+    content: "모집대상 이동";
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 17%;
+    padding-top: 11%;
     bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
@@ -268,11 +268,11 @@
   }
   
 #leo_four::before {
-    content: "모집일정";
+    content: "모집일정 이동";
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 17%;
+    padding-top: 11%;
     bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
@@ -292,11 +292,11 @@
   }
   
 #leo_five::before {
-    content: "규칙 & 커리큘럼";
+    content: "규칙 & 커리큘럼 이동";
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 10%;
+    padding-top: 7%;
     bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
@@ -316,11 +316,11 @@
   }
   
 #leo_six::before {
-    content: "지난해 프로젝트";
+    content: "지난해 프로젝트 이동";
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 10%;
+    padding-top: 7%;
     bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
@@ -341,11 +341,11 @@
   }
   
 #leo_seven::before {
-    content: "이벤트 참여";
+    content: "이벤트 참여 이동";
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 14%;
+    padding-top: 9%;
     bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
@@ -365,11 +365,11 @@
   }
   
 #leo_eight::before {
-    content: "운영진들";
+    content: "운영진들 이동";
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 17%;
+    padding-top: 11%;
     bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;
@@ -389,11 +389,11 @@
   }
   
 #leo_nine::before {
-    content: "멋사 정보";
+    content: "멋사정보 이동";
     position: absolute;
     width: 100%;
     height: 50%;
-    padding-top: 17%;
+    padding-top: 11%;
     bottom: 1%;
     color: rgb(255, 255, 255);
     overflow: hidden;

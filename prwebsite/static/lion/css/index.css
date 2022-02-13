@@ -2,12 +2,20 @@ body{
     background-color: black;
     font-family: 'Noto Sans KR', sans-serif;
     color:white;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 10px;
+    margin: 10px;
+}
+body::-webkit-scrollbar{
+    display: none;
 }
 
 #wrapper{
     height: auto;
     min-height: 100%;
-    padding-bottom: 40px;
+    padding: 0px 5vw 0px 5vw;
+    margin: 0px 5vw 0px 5vw;
 
 }
 
@@ -24,12 +32,13 @@ header{
     width: 100%;
     top: 0;
     left: 0;
+    height: 55px;
 }
 
 .header_text{
     float: left;
     width: 50%;
-    padding: 10px 0 0 20px;
+    padding: 5px 0 0 20px;
     font-weight: bolder;
 }
 

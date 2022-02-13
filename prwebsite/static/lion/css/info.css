@@ -4,7 +4,7 @@
 
 .introduce {
     position: relative;
-    padding: 10vw 5vw 10vw 5vw;
+    padding: 10vw 0vw 10vw 0vw;
 }
 
 .info_box {
@@ -32,20 +32,21 @@
 
 .intro_container p {
     text-align: right;
-    font-size: 1.4vw;
+    font-size: 1.45vw;
 }
 
 #info_star {
+    /* 별 그냥 포토샵으로 줄이랑 사진해서 넣기 */
     position: absolute;
     max-width: 8%;
     height: auto;
-    left: 90.8%;
+    left: 95.8%;
     top: 73%;
 }
 
 .recruit {
     position: relative;
-    padding: 10vw 5vw 10vw 5vw;
+    padding: 10vw 0vw 10vw 0vw;
 }
 
 .recruit_wait p {
@@ -59,7 +60,7 @@
 .recruit_box img {
     width: 35vw;
     height: 25vw;
-    padding-top: 2.5vw;
+    padding-top: 6vw;
 }
 
 .recruit_container {
@@ -73,16 +74,14 @@
     font-size: 2vw;
 }
 
-.recruit_container p {
+.recruit_container p { 
     text-align: left;
-    font-size: 1.4vw;
+    font-size: 1.45vw;
     line-height: 3vw;
 }
 
 .schedule {
-    position: relative;
-    padding: 10vw 5vw 10vw 5vw;
-    width: 88vw;
+    padding: 10vw 0vw 10vw 0vw;
     height: 35vw;
 }
 
@@ -96,40 +95,40 @@
 
 .schedule_container {
     overflow: auto;
-    width: 85vw;
+    /* width: 85vw; */
     height: 20vw;
-    padding-left: 3vw;
+    padding: 0 0 0 1vw;
     line-height: 2.5vw;
-    font-size: 1.4vw;
-    border-left: 0.2vw solid #FF9E1B;
+    font-size: 1.2vw;
+    border-left: 0.2vw solid #FF9E1B; 
+    /* 왼쪽 줄 */
 }
 
-.schedule_container::-webkit-scrollbar {
+.schedule_container::-webkit-scrollbar { 
+    /* 스크롤바 전체 영역 */
     width: 0.5vw;
 }
 
 .schedule_container::-webkit-scrollbar-thumb {
+    /* 스크롤 */
     background-color: #FF9E1B;
     border-top: 4vw solid black;
     border-bottom: 4vw solid black;
 }
 
 .video {
-    position: relative;
-    padding-top: 10vw;
-    padding-bottom: 10vw;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    display: flex;
+    justify-content: center;
 }
 
 video {
-    width: 69vw;
+    width: -webkit-fill-available;
     border: 0.5vw solid #FF9E1B;
 }
 
 .must {
     position: relative;
-    margin: 10vw 5vw 10vw 5vw;
+    margin: 10vw 0vw 10vw 0vw;
     padding-left: 3vw;
     border-left: 0.3vw solid #FF9E1B;
 }
