@@ -32,7 +32,7 @@
 
 .intro_container p {
     text-align: right;
-    font-size: 1.4vw;
+    font-size: 1.45vw;
 }
 
 #info_star {
@@ -56,7 +56,7 @@
 .recruit_box img {
     width: 35vw;
     height: 25vw;
-    padding-top: 2.5vw;
+    padding-top: 6vw;
 }
 
 .recruit_container {
@@ -71,9 +71,8 @@
 }
 
 .recruit_container p { 
-    /* 좀 더 세세하게 나눠야함 */
     text-align: left;
-    font-size: 1.3vw;
+    font-size: 1.45vw;
     line-height: 3vw;
 }
 
