@@ -36,8 +36,7 @@
 }
 
 #info_star {
-    /* 별 그냥 포토샵으로 줄이랑 사진해서 넣기 */
-    position: absolute;
+    position: relative;
     max-width: 8%;
     height: auto;
     left: 95.8%;
@@ -51,6 +50,8 @@
 
 .recruit_wait p {
     text-align: center;
+    color: lightgray;
+    font-size: 1vw;
 }
 
 .recruit_box {
@@ -71,7 +72,7 @@
 }
 
 .recruit_container .title {
-    font-size: 2vw;
+    font-size: 2.4vw;
 }
 
 .recruit_container p { 
@@ -86,11 +87,15 @@
 }
 
 .schedule .title {
-    font-size: 2vw;
+    font-size: 2.4vw;
+    margin: 0 0 0 0;
+    color: white;
 }
 
 .schedule p {
     font-size: 1.4vw;
+    margin: 0.7vw 0 2.3vw 0;
+    color: lightgray;
 }
 
 .schedule_container {
@@ -99,7 +104,7 @@
     height: 20vw;
     padding: 0 0 0 1vw;
     line-height: 2.5vw;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     border-left: 0.2vw solid #FF9E1B; 
     /* 왼쪽 줄 */
 }
@@ -122,6 +127,7 @@
 }
 
 video {
+    margin: 10vw 0vw 10vw 0vw;
     width: -webkit-fill-available;
     border: 0.5vw solid #FF9E1B;
 }
@@ -130,11 +136,12 @@ video {
     position: relative;
     margin: 10vw 0vw 10vw 0vw;
     padding-left: 3vw;
-    border-left: 0.3vw solid #FF9E1B;
+    text-align: center;
 }
 
 .must p {
-    line-height: 2.5vw;
+    line-height: 1.7vw;
+    font-size: 1vw;
 }
 
 .must .title {
@@ -145,13 +152,13 @@ video {
     padding-bottom: 3vw;
 }
 
-.link {
-    font-size: 1.5vw;
-    color: white;
+.download_link {
+    font-size: 1.2vw;
+    color: darkgray;
     text-decoration: none;
 }
 
-.link:hover {
+.download_link:hover {
     color: #FF9E1B;
     cursor: pointer
 }
