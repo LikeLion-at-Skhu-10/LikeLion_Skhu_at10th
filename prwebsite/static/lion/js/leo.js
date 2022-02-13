@@ -115,3 +115,13 @@ function changeFO() {
     const element = document.getElementById("leo_title");
     element.innerHTML = '<a id="leo_nine" href="#leo_FO" style="text-decoration:none;">멋사정보 이동</a>';
 }
+
+function changeVI() {
+    const element = document.getElementById("leo_title");
+    element.innerHTML = '<a id="leo_one" href="#leo_VI" style="text-decoration:none;">소개영상 이동</a>';
+}
+
+function changeTI() {
+    const element = document.getElementById("leo_title");
+    element.innerHTML = '<p>별을 클릭해보세요</p>';
+}
