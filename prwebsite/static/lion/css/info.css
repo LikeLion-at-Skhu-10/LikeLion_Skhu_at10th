@@ -7,10 +7,6 @@
     padding: 10vw 0vw 10vw 0vw;
 }
 
-.introduce p {
-    text-align: right;
-}
-
 .info_box {
     display: flex;
     border-right: 0.2vw solid #FF9E1B;
