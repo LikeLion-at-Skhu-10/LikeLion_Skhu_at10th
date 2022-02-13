@@ -49,6 +49,10 @@
     padding: 10vw 0vw 10vw 0vw;
 }
 
+.recruit_wait p {
+    text-align: center;
+}
+
 .recruit_box {
     display: flex;
 }
