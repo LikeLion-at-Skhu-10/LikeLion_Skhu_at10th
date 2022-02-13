@@ -61,6 +61,14 @@ header{
     font-size: small;
 }
 .insta{
-    margin: 2px 0 15px;
+    margin: 2px 0 2px;
     font-size: small;
+}
+.LIKELION{
+    font-size: small;
+    margin: 2px 0 2px;
+}
+.github{
+    font-size: small;
+    margin: 2px 0 2.5vw;
 }

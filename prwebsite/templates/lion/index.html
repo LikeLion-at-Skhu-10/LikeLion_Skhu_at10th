@@ -5,6 +5,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="static/lion/img/logo.ico" />
+    <link rel="icon" href="static/lion/img/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="{% static 'lion/css/leo.css' %}">
     <link rel="stylesheet" href="{% static 'lion/css/event.css' %}">
     <link rel="stylesheet" href="{% static 'lion/css/madein.css' %}">
@@ -26,7 +28,7 @@
         <div class="leo">
             <div class="leo_top">
                 <br>
-                <p id="leo_title">별을 클릭해 보세요</p>
+                <p id="leo_title" onclick="changeTI(), out(leo_lion), out(leo_video), out(leo_introduce), out(leo_recruit), out(leo_schedule), out(leo_rulecurri), out(leo_slide), out(leo_event), out(leo_madein), out(leo_footer)">별을 클릭해 보세요</p>
                 <hr><img id="leo_search" src="static/lion/img/leo/검색.png" alt="검색">
             </div>
             <br><br>
@@ -71,7 +73,7 @@
                 <div class="info_box">
                     <img id="skhu1" src="{% static 'lion/img/info/skhu1.jpeg' %}" alt="멋사 성공회대 사진 1">
                     <div class="intro_container">
-                        <p class="title">🦁"멋쟁이 사자처럼"이 무엇인가요?</p>
+                        <p class="title">🦁"멋쟁이 사자처럼"이 무엇인가요?🦁</p>
                         <p>
                             "<span class="orange">HACK YOUR LIFE</span> 내 아이디어를 내 손으로 실현한다"<br>
                             전국 연합 동아리 멋쟁이 사자처럼. <br>
@@ -92,7 +94,7 @@
             <div class="recruit" id="leo_RE">
                 <div class="recruit_box">
                     <div class="recruit_container">
-                        <p class="title">모집대상</p>
+                        <p class="title">🦁모집대상🦁</p>
                         <p>
                             ☝🏻 전공자/비전공자 상관없이 나의 아이디어를 웹 서비스를 구현해보고 싶은 누구나! <br>
                             ✌🏻 해커톤과 넥슨 MOD를 통해 개발 경험을 쌓아보고 싶은 누구나! <br>
@@ -103,14 +105,14 @@
                     <img id="skhu2" src="{% static 'lion/img/info/skhu2.jpeg' %}" alt="멋사 성공회대 사진 2">
                 </div>
                 <div class="recruit_wait">
-                    <p>멋쟁이 사자처럼 성공회대학교가 기다리고 있습니다 🦁</p>
+                    <p>🧡 멋쟁이 사자처럼 성공회대학교가 기다리고 있습니다 🧡</p>
                 </div>
             </div>
 
             <div class="schedule" id="leo_SC">
-                <p class="title">모집일정</p>
+                <p class="title">🦁모집일정🦁</p>
                 <p>
-                    구글폼을 이용한 1차 면접과 비대면(ex. 줌)을 통한 2차 면접을 진행합니다.
+                    구글폼을 이용한 1차 서류 면접과 비대면 2차 면접을 진행합니다.
                 </p>
                 <div class="schedule_container">
                     2월 21일 - 3월 8일 : 구글폼을 이용한 서류 모집 기간 <br><br>
@@ -129,21 +131,21 @@
 
             <div class="must" id="leo_MU">
                 <div class="rule">
-                    <p class="title">멋쟁이 사자처럼 규칙</p>
+                    <p class="title">🦁멋쟁이 사자처럼 규칙🦁</p>
                     <p>
                         멋쟁이 사자처럼 10기로 함께 활동하고 싶다면 <br>
                         아래 규칙을 정독한 후에 지원서를 작성해주시길 바랍니다 ! <br>
                     </p>
-                    <a class="link" href="{% static 'lion/img/info/likelion_rule.pdf' %}" download> 멋쟁이 사자처럼 규칙 </a>
+                    <a class="download_link" href="{% static 'lion/img/info/likelion_rule.pdf' %}" download> <ins>멋쟁이 사자처럼 규칙(다운로드)</ins> </a>
                 </div>
 
                 <div class="curriculum">
-                    <p class="title">멋쟁이 사자처럼 커리큘럼</p>
+                    <p class="title">🦁멋쟁이 사자처럼 커리큘럼🦁</p>
                     <p>
                         멋쟁이 사자처럼 10기는 <br>
                         기본적인 개발 언어 교육과 선호 트랙에 따른 심화 교육을 진행합니다 ! <br>
                     </p>
-                    <a class="link" href="{% static 'lion/img/info/likelion_curriculum.pdf' %}" download> 멋쟁이 사자처럼 커리큘럼
+                    <a class="download_link" href="{% static 'lion/img/info/likelion_curriculum.pdf' %}" download> <ins>멋쟁이 사자처럼 커리큘럼(다운로드)</ins>
                     </a>
                 </div>
             </div>
@@ -202,29 +204,27 @@
                         <div class="event_text">
                             <p class="event_title">🦁 멋사 이벤트 🦁</p>
                             <div class="event_text_quiz">
-                                <p>
+                                <p class="event_explain">
                                     아무나 상관없이! 간단한 퀴즈를 풀고 상품 받아가자!
-                                </p>
-                                <p>
+                                    <br>
                                     이 문제들은 페이지를 자세히 살펴보면 풀 수 있는 간단한 문제들이니 한번 참여해보세요!
                                 </p>
                                 <p class="padding">
-                                    <span>1️⃣</span> 멋쟁이 사자처럼 운영진 수는 몇 명일까요?
+                                    <span class="orange">하나!</span> 멋쟁이 사자처럼 운영진 수는 몇 명일까요?
                                 </p>
                                 <p class="padding">
-                                    <span>2️⃣</span> "멋쟁이 사자처럼"의 활동 시간이 아닌 것은?
+                                    <span class="orange">둘!</span> "멋쟁이 사자처럼"의 활동 시간이 아닌 것은?
                                 </p>
                                 <p class="padding">
-                                    <span>3️⃣</span> 멋쟁이 사자처럼에서 배우는 것이 아닌 것은?
+                                    <span class="orange">셋!</span> 멋쟁이 사자처럼에서 배우는 것이 아닌 것은?
                                 </p>
                             </div>
                         </div>
                         <button class="google_form"><a href="#">바로 참여하러 가기 →</a></button>
                     </div>
-                    <button class="google_form"><a href="#">Go</a></button>
                 </div>
 
-                <h5 class="programmers_title" id="leo_MA">programmers</h5>
+                <h5 class="programmers_title" id="leo_MA">management</h5>
                 <div class="line_total_cover">
                     <div class="line">
                         <div class="madein">
@@ -282,6 +282,8 @@
         <p class="footlion">멋쟁이 사자처럼</p>
         <p class="number"><span class="orange">PHONE NUMBER</span> 010-4122-2746</p>
         <p class="insta"><span class="orange">INSTAGRAM</span> @likelion_skhu</p>
+        <p class="LIKELION"><a href="https://www.likelion.net/"><span class="orange">LIKELION</span> https://www.likelion.net</a></p>
+        <p class="github"><a href="https://github.com/LikeLion-at-Skhu-10"><span class="orange">GITHUB</span> https://github.com/LikeLion-at-Skhu-10</a></p>
         <br>
     </footer>
 </body>
