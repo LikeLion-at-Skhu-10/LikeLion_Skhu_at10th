@@ -52,6 +52,7 @@
     text-align: center;
     color: lightgray;
     font-size: 1vw;
+    width: 100%;
 }
 
 .recruit_box {
@@ -134,18 +135,18 @@ video {
 
 .must {
     position: relative;
-    margin: 10vw 0vw 10vw 0vw;
-    padding-left: 3vw;
+    margin: 10vw 0vw 15vw 0vw;
     text-align: center;
+    width: 100%;
 }
 
 .must p {
     line-height: 1.7vw;
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 
 .must .title {
-    font-size: 2vw;
+    font-size: 2.4vw;
 }
 
 .rule {
@@ -153,7 +154,7 @@ video {
 }
 
 .download_link {
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     color: darkgray;
     text-decoration: none;
 }

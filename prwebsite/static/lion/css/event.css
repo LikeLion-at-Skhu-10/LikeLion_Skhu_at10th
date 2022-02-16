@@ -1,30 +1,46 @@
-.event{
-    margin : 15vw 0 15vw 0;
+.event_main{
+    margin: 20vw 0 20vw 0;
 }
-.event_title{
-    font-size : 2vw;
-}
-.event_text{
+
+.event_left_borderbar{
     border-left : 0.3vw solid #FF9E1B; 
     padding-left : 3vw;
 }
-.event_text_quiz{
-    font-size : 1.4vw;
+
+.event_title{
+    font-size: 2.3vw;
+    width: 100%;
 }
-.event_text_quiz span{
-    font-size : 1.9vw;
-}
+
 .event_explain{
     margin: 0.7vw 0 2.3vw 0;
+    font-size: 1.3vw;
+    color: lightgray;
+    width: 100%;
 }
-.google_form{
+
+.event_problem{
+    font-size: 1.5vw;
+    line-height: 4vw;
+    width: 100%;
+}
+
+.event_form{
     background-color: black;
-    border : 0px;
+    border: 0px;
     text-decoration: none;
-    font-size : 1.4vw;
-    width : 100%;
-    text-align : right;
+    font-size: 1.4vw;
+    width: 100%;
+    text-align: right;
+    color: white;
 }
-.google_form a:hover{
+.event_form a:hover{
     color: #FF9E1B;
+    cursor: pointer;
+}
+
+.event_orange{
+    color: #FF9E1B;
+    font-size: 1.7vw;
+    font-weight: bolder;
 }

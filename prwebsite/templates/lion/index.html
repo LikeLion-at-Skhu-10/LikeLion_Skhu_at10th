@@ -28,7 +28,9 @@
         <div class="leo">
             <div class="leo_top">
                 <br>
-                <p id="leo_title" onclick="changeTI(), out(leo_lion), out(leo_video), out(leo_introduce), out(leo_recruit), out(leo_schedule), out(leo_rulecurri), out(leo_slide), out(leo_event), out(leo_madein), out(leo_footer)">별을 클릭해 보세요</p>
+                <p id="leo_title"
+                    onclick="changeTI(), out(leo_lion), out(leo_video), out(leo_introduce), out(leo_recruit), out(leo_schedule), out(leo_rulecurri), out(leo_slide), out(leo_event), out(leo_madein), out(leo_footer)">
+                    별을 클릭해 보세요</p>
                 <hr><img id="leo_search" src="static/lion/img/leo/검색.png" alt="검색">
             </div>
             <br><br>
@@ -97,8 +99,8 @@
                         <p class="title">🦁모집대상🦁</p>
                         <p>
                             ☝🏻 전공자/비전공자 상관없이 나의 아이디어를 웹 서비스를 구현해보고 싶은 누구나! <br>
-                            ✌🏻 해커톤과 넥슨 MOD를 통해 개발 경험을 쌓아보고 싶은 누구나! <br>
-                            👌🏻 Django와 Python을 통한 웹 서비스를 구축해보고 싶은 누구나! <br>
+                            ✌🏻 해커톤을 통해 개발 경험을 쌓아보고 싶은 누구나! <br>
+                            👌🏻 Django와 React, Python 등으로 웹 서비스를 구축해보고 싶은 누구나! <br>
                             <br><br>
                         </p>
                     </div>
@@ -125,7 +127,7 @@
             </div>
 
             <div class="video" id="leo_VI">
-                <video src="{% static 'lion/video/info/likelion_skhu.mp4' %}" controls>
+                <video poster="{% static 'lion/img/thumbnail.png' %}" controls><source src="{% static 'lion/video/info/likelion_skhu.mp4' %}" controls>
                 </video>
             </div>
 
@@ -136,7 +138,8 @@
                         멋쟁이 사자처럼 10기로 함께 활동하고 싶다면 <br>
                         아래 규칙을 정독한 후에 지원서를 작성해주시길 바랍니다 ! <br>
                     </p>
-                    <a class="download_link" href="{% static 'lion/img/info/likelion_rule.pdf' %}" download> <ins>멋쟁이 사자처럼 규칙(다운로드)</ins> </a>
+                    <a class="download_link" href="{% static 'lion/img/info/likelion_rule.pdf' %}" download> <ins>멋쟁이
+                            사자처럼 규칙(다운로드)</ins> </a>
                 </div>
 
                 <div class="curriculum">
@@ -145,7 +148,8 @@
                         멋쟁이 사자처럼 10기는 <br>
                         기본적인 개발 언어 교육과 선호 트랙에 따른 심화 교육을 진행합니다 ! <br>
                     </p>
-                    <a class="download_link" href="{% static 'lion/img/info/likelion_curriculum.pdf' %}" download> <ins>멋쟁이 사자처럼 커리큘럼(다운로드)</ins>
+                    <a class="download_link" href="{% static 'lion/img/info/likelion_curriculum.pdf' %}" download>
+                        <ins>멋쟁이 사자처럼 커리큘럼(다운로드)</ins>
                     </a>
                 </div>
             </div>
@@ -191,83 +195,70 @@
         </div>
 
         <div class="event">
-            <div class="moving_header_bar">
-                <div class="moving_header_bar_ofdot"></div>
+            <div class="event_main" id="leo_EV">
+                <div class="event_left_borderbar">
+                    <!-- 왼쪽 줄 -->
+                    <div class=event_title>✨성공회대 멋사만의 특별한 이벤트✨</div>
+                    <div class="event_explain">
+                        누구나 맞출 수 있는 간단한 퀴즈풀고 상품 받아가자!
+                        <br>
+                        Tip. 페이지를 자세히 보세요~
+                    </div>
+                    <div class="event_problem">
+                        <span class="event_orange">하나!</span> 성공회대 "멋쟁이 사자처럼"의 운영진 수는 몇 명일까요?
+                        <br>
+                        <span class="event_orange">둘!</span> 성공회대 "멋쟁이 사자처럼"의 활동 시간이 아닌 것은?
+                        <br>
+                        <span class="event_orange">셋!</span> 멋쟁이 사자처럼에서 배우는 것이 아닌 것은?
+                    </div>
+                    <button class="event_form"><a href="https://forms.gle/d95fMHr8XYDVkNC1A" target="_blank">바로 참여하러
+                            가기(클릭)</a></button>
+                </div>
             </div>
-            <div class="all_in_one">
-                <div class="slider_header">
-                    <div class="color_circle"></div>
-                    <div class="color_circle"></div>
-                    <div class="color_circle"></div>
 
-                    <div class="event" id="leo_EV">
-                        <div class="event_text">
-                            <p class="event_title">🦁 멋사 이벤트 🦁</p>
-                            <div class="event_text_quiz">
-                                <p class="event_explain">
-                                    아무나 상관없이! 간단한 퀴즈를 풀고 상품 받아가자!
-                                    <br>
-                                    이 문제들은 페이지를 자세히 살펴보면 풀 수 있는 간단한 문제들이니 한번 참여해보세요!
-                                </p>
-                                <p class="padding">
-                                    <span class="orange">하나!</span> 멋쟁이 사자처럼 운영진 수는 몇 명일까요?
-                                </p>
-                                <p class="padding">
-                                    <span class="orange">둘!</span> "멋쟁이 사자처럼"의 활동 시간이 아닌 것은?
-                                </p>
-                                <p class="padding">
-                                    <span class="orange">셋!</span> 멋쟁이 사자처럼에서 배우는 것이 아닌 것은?
-                                </p>
-                            </div>
+            <h5 class="programmers_title" id="leo_MA">management</h5>
+            <div class="line_total_cover">
+                <div class="line">
+                    <div class="madein">
+                        <div class="programmers">
+                            <div class="hidden_madein_box">강규빈</div>
                         </div>
-                        <button class="google_form"><a href="#">바로 참여하러 가기 →</a></button>
+                    </div>
+                    <div class="madein">
+                        <div class="programmers">
+                            <div class="hidden_madein_box">강민정</div>
+                        </div>
+                    </div>
+                    <div class="madein">
+                        <div class="programmers">
+                            <div class="hidden_madein_box">김수진</div>
+                        </div>
+                    </div>
+                    <div class="madein">
+                        <div class="programmers">
+                            <div class="hidden_madein_box">김신아</div>
+                        </div>
                     </div>
                 </div>
-
-                <h5 class="programmers_title" id="leo_MA">management</h5>
-                <div class="line_total_cover">
-                    <div class="line">
-                        <div class="madein">
-                            <div class="programmers">
-                                <div class="hidden_madein_box">강규빈</div>
-                            </div>
-                        </div>
-                        <div class="madein">
-                            <div class="programmers">
-                                <div class="hidden_madein_box">강민정</div>
-                            </div>
-                        </div>
-                        <div class="madein">
-                            <div class="programmers">
-                                <div class="hidden_madein_box">김수진</div>
-                            </div>
-                        </div>
-                        <div class="madein">
-                            <div class="programmers">
-                                <div class="hidden_madein_box">김신아</div>
-                            </div>
+                <div class="line">
+                    <div class="madein">
+                        <div class="programmers">
+                            <div class="hidden_madein_box">김예지</div>
                         </div>
                     </div>
-                    <div class="line">
-                        <div class="madein">
-                            <div class="programmers">
-                                <div class="hidden_madein_box">김예지</div>
-                            </div>
+                    <div class="madein">
+                        <div class="programmers">
+                            <div class="hidden_madein_box">김은혜</div>
                         </div>
-                        <div class="madein">
-                            <div class="programmers">
-                                <div class="hidden_madein_box">김은혜</div>
-                            </div>
+                    </div>
+                    <div class="madein">
+                        <div class="programmers">
+                            <div class="hidden_madein_box">조세은</div>
                         </div>
-                        <div class="madein">
-                            <div class="programmers">
-                                <div class="hidden_madein_box">조세은</div>
-                            </div>
-                        </div>
-                        <div class="madein">
-                            <div class="programmers">
-                                <div class="hidden_madein_box">주영빈</div>
-                            </div>
+                    </div>
+                    <div class="madein">
+                        <div class="programmers">
+                            <div class="hidden_madein_box">주영빈</div>
                         </div>
                     </div>
                 </div>
@@ -282,8 +273,10 @@
         <p class="footlion">멋쟁이 사자처럼</p>
         <p class="number"><span class="orange">PHONE NUMBER</span> 010-4122-2746</p>
         <p class="insta"><span class="orange">INSTAGRAM</span> @likelion_skhu</p>
-        <p class="LIKELION"><a href="https://www.likelion.net/"><span class="orange">LIKELION</span> https://www.likelion.net</a></p>
-        <p class="github"><a href="https://github.com/LikeLion-at-Skhu-10"><span class="orange">GITHUB</span> https://github.com/LikeLion-at-Skhu-10</a></p>
+        <p class="LIKELION"><a href="https://www.likelion.net/" target="_blank"><span class="orange">LIKELION</span>
+                https://www.likelion.net</a></p>
+        <p class="github"><a href="https://github.com/LikeLion-at-Skhu-10" target="_blank"><span class="orange">GITHUB</span>
+                https://github.com/LikeLion-at-Skhu-10</a></p>
         <br>
     </footer>
 </body>

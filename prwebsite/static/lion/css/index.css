@@ -16,7 +16,6 @@ body::-webkit-scrollbar{
     min-height: 100%;
     padding: 0px 5vw 0px 5vw;
     margin: 0px 5vw 0px 5vw;
-
 }
 
 footer{
@@ -43,7 +42,7 @@ header{
 }
 
 .H_orange{
-    font-size: large;
+    font-size: 1.4vw;
     color: #FF9E1B;
 }
 
@@ -52,23 +51,28 @@ header{
 }
 
 .footlion{
-    font-size: large;
+    font-size: 1.4vw;
     margin: 5px 0 25px 0;
+    width: 100%;
 }
 
 .number{
     margin: 15px 0px 0 0;
-    font-size: small;
+    font-size: 1.2vw;
+    width: 100%;
 }
 .insta{
     margin: 2px 0 2px;
-    font-size: small;
+    font-size: 1.2vw;
+    width: 100%;
 }
 .LIKELION{
-    font-size: small;
+    font-size: 1.2vw;
+    width: 100%;
     margin: 2px 0 2px;
 }
 .github{
-    font-size: small;
+    font-size: 1.2vw;
+    width: 100%;
     margin: 2px 0 2.5vw;
 }
